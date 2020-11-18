@@ -77,3 +77,8 @@ Here as score 0 refers to 1, 1->2, ..., 4->5
 ### RNN Confusion Matrix
 
 ![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/RNN_cm.png?raw=true "Naive Bayes Confusion Matrix")
+
+## Future Work
+* Since the data is imbalanced we can try resampling the data (downscaling the 5s or upscaling 1-2-3-4)
+* Training multiple models then ensemble
+* Hyperparameter tuning
