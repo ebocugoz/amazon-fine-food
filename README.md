@@ -61,7 +61,19 @@ Data is avaialable in https://www.kaggle.com/snap/amazon-fine-food-reviews, you 
   * RNN 
   
 ## Results
+Here as score 0 refers to 1, 1->2, ..., 4->5
+### Naive Bayes Confusion Matrix
 
 ![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/NB_cm.png?raw=true "Naive Bayes Confusion Matrix")
 
-  
+### Support Vector Machine Confusion Matrix
+
+![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/SVM_cm.png?raw=true "Naive Bayes Confusion Matrix")
+
+### Logistic Regression(Multiclass) Confusion Matrix
+
+![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/LR_cm.png?raw=true "Naive Bayes Confusion Matrix")
+
+### RNN Confusion Matrix
+
+![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/RNN_cm.png?raw=true "Naive Bayes Confusion Matrix")
