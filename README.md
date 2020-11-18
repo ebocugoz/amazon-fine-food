@@ -60,5 +60,8 @@ Data is avaialable in https://www.kaggle.com/snap/amazon-fine-food-reviews, you 
 * Building Keras Models
   * RNN 
   
+## Results
+
+![Alt text](results/NB_cn.png?raw=true "Naive Bayes Confusion Matrix")
 
   
