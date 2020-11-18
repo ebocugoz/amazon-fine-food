@@ -59,6 +59,7 @@ Data is avaialable in https://www.kaggle.com/snap/amazon-fine-food-reviews, you 
   * Logistic Regression
 * Building Keras Models
   * RNN 
+* Also in the end tried to analyze helpful reviews.(But i didn't have much time left)
   
 ## Results
 Here as score 0 refers to 1, 1->2, ..., 4->5
@@ -68,15 +69,15 @@ Here as score 0 refers to 1, 1->2, ..., 4->5
 
 ### Support Vector Machine Confusion Matrix
 
-![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/SVM_cm.png?raw=true "Naive Bayes Confusion Matrix")
+![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/SVM_cm.png?raw=true "SVM Confusion Matrix")
 
 ### Logistic Regression(Multiclass) Confusion Matrix
 
-![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/LR_cm.png?raw=true "Naive Bayes Confusion Matrix")
+![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/LR_cm.png?raw=true "Logistic reg Confusion Matrix")
 
 ### RNN Confusion Matrix
 
-![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/RNN_cm.png?raw=true "Naive Bayes Confusion Matrix")
+![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/RNN_cm.png?raw=true "RNN Confusion Matrix")
 
 ## Future Work
 * Since the data is imbalanced we can try resampling the data (downscaling the 5s or upscaling 1-2-3-4)
