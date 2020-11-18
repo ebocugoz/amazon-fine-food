@@ -68,7 +68,7 @@ Here as score 0 refers to 1, 1->2, ..., 4->5
 
 ### Support Vector Machine Confusion Matrix
 
-![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/SVM_cm.png?raw=true SVM Confusion Matrix")
+![Alt text](https://github.com/ebocugoz/amazon-fine-food/blob/main/results/SVM_cm.png?raw=true "SVM Confusion Matrix")
 
 ### Logistic Regression(Multiclass) Confusion Matrix
 
