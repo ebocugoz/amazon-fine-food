@@ -27,6 +27,9 @@ Data is avaialable in https://www.kaggle.com/snap/amazon-fine-food-reviews, you 
 
 
 ## Files
+* Python files :
+  * Amazon_Food_Review.ipynb : Main notebook.
+
 
 * Python files :
   * textpreprocesser.py : Class with functions for preprocessing the text data. 
@@ -35,6 +38,27 @@ Data is avaialable in https://www.kaggle.com/snap/amazon-fine-food-reviews, you 
   * modelsk_tester.py : Unit tests for modelsk.py
   * modelkeras.py : Class to build neural network models by using keras.
   * keras_plotters.py : Functions to plot learning curve for keras model.
+  
+  
+## Steps
+
+* Loading & Exploring the data
+* Preprocessing the data
+  * Converting text to lower case
+  * Removing html tags
+  * Removing punctuations
+  * Removing stop words
+  * Lemmatization
+* Creating Dictionary
+  * Creating frequency dictionary
+  * Get top **n** frequent words
+  * Removing reviews longer than **k** words
+* Building SKlearn Models
+  * Naive Bayes
+  * Support Vector Machine
+  * Logistic Regression
+* Building Keras Models
+  * RNN 
   
 
   
