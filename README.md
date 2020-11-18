@@ -59,6 +59,7 @@ Data is avaialable in https://www.kaggle.com/snap/amazon-fine-food-reviews, you 
   * Logistic Regression
 * Building Keras Models
   * RNN 
+* Also in the end tried to analyze helpful reviews.(But i didn't have much time left)
   
 ## Results
 Here as score 0 refers to 1, 1->2, ..., 4->5
