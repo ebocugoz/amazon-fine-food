@@ -62,6 +62,6 @@ Data is avaialable in https://www.kaggle.com/snap/amazon-fine-food-reviews, you 
   
 ## Results
 
-![Alt text](results/NB_cn.png?raw=true "Naive Bayes Confusion Matrix")
+![Alt text](/results/NB_cn.png?raw=true "Naive Bayes Confusion Matrix")
 
   
