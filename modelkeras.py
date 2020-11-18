@@ -15,7 +15,7 @@ class ModelKeras:
 
 
     
-    def __init__(self,X,y,maxlen):
+    def __init__(self,X,y,maxlen,dictionary_frequent):
         self.model = None
         self.X = X
         self.y = y
@@ -26,6 +26,7 @@ class ModelKeras:
         self.y_train = None
         self.y_test = None
         self.maxlen = maxlen
+        self.dictionary_frequent = dictionary_frequent
         self.METRICS = [
             tf.keras.metrics.TruePositives(name='tp'),
             tf.keras.metrics.FalsePositives(name='fp'),
@@ -44,7 +45,7 @@ class ModelKeras:
       """
       Tokenize the X and y according to previously created frequency dictionary
       """
-      tokenizer = Tokenizer(num_words=len(dictionary_frequent))
+      tokenizer = Tokenizer(num_words=len(self.dictionary_frequent))
       tokenizer.fit_on_texts(X)
       X = tokenizer.texts_to_sequences(X)
       X = sequence.pad_sequences(X, maxlen=self.maxlen)
@@ -99,7 +100,7 @@ class ModelKeras:
     def construct_model(self, embedding_vecor_length = 64, dropout=0.2, output_size=6,lstm_hiddensize = 128): 
       input_length = self.maxlen  
       model = Sequential()
-      model.add(Embedding(len(dictionary_frequent), embedding_vecor_length, input_length=input_length))
+      model.add(Embedding(len(self.dictionary_frequent), embedding_vecor_length, input_length=input_length))
       model.add(Dropout(dropout))
       model.add(Bidirectional(LSTM(lstm_hiddensize)))
       model.add(Dropout(dropout))
